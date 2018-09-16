@@ -3,11 +3,11 @@
   <channel>
     <title>Ryan Watson</title>
     <description></description>
-    <link>https://watsonryan.github.io/</link>
-    <atom:link href="https://watsonryan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Apr 2018 03:59:53 -0400</pubDate>
-    <lastBuildDate>Tue, 17 Apr 2018 03:59:53 -0400</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <link>https://watsonryan.github.io/about/</link>
+    <atom:link href="https://watsonryan.github.io/about/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 16 Sep 2018 16:26:43 -0400</pubDate>
+    <lastBuildDate>Sun, 16 Sep 2018 16:26:43 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
   </channel>
 </rss>

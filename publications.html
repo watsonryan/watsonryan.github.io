@@ -5,15 +5,38 @@ title: Publications
 			<section>
 				<ol>
 
-					<li> <h4> Evaluation of Precise Point Positioning Convergence with an Incremental Graph Optimizer </h4>
-						<h5>  Watson, R. <b> and Gross, J. </b> </h5>
-						<p> IEEE/ION Position Location and Navigation Symposium (ION PLANS 2018) <br>
-             </p>
+          <li> <h4> Batch Measurement Error Covariance Estimation for Robust Localization </h4>
+						<h5> Watson, R., <b> Taylor, C., Leishman, R., Gross, J. </b> </h5>
+						<p> Proceedings of the 31th International Technical Meeting of the Satellite Division of the Institute of Navigation (ION GNSS+ 2018) </p>
 
-						<blockquote>Estimation techniques to precisely localize a kine-matic platform with GNSS observables can be broadly partitioned into two categories: differential, or undifferenced. The differential techniques (e.g., real-time kinematic (RTK)) have several attractive properties, such as correlated error mitigation and fast convergence; however, to support a differential processing scheme, an infrastructure of reference stations within a proximity of the platform must be in place to construct observation corrections. This infrastructure requirement makes differential processing techniques infeasible in many locations. To mitigate the need for additional receivers within proximity of the platform, the precise point positioning (PPP) method utilizes accurate orbit and clock models to localize the platform. The autonomy of PPP from local reference stations make it an attractive processing scheme for several applications; however, a current disadvantage of PPP is the slow positioning convergence when compared to differential techniques. In this paper, we evaluate the convergence properties of PPP with an incremental graph optimization scheme (Incremental Smoothing and Mapping (iSAM2)), which allows for real-time filtering and smoothing. The characterization is first conducted through a Monte Carlo analysis within a simulation environment, which allows for the variations of parameters, such as atmospheric conditions, satellite geometry, and intensity of multipath. Then, an example collected data set is utilized to validate the trends presented in the simulation study.</blockquote>
+
+						<blockquote> The factor graph has become the standard framework for representing a plethora of robotic navigation problems. One primary reason for this adoption by the community is the fast and efficient inference that can be conducted over the graph when a unimodal Gaussian noise model is assumed. However, the unimodal Gaussian noise model assumption does not reflect reality in many situations, particularly measurements that may include gross outliers (e.g. feature tracking between images, place recognition, or GNSS multipath). To combat this issue, several methodologies have been proposed for conducting robust inference on factor graphs. These models work by reducing the contribution of constraints that do not adhere to the specified noise model by scaling the corresponding elements of the information matrix. A unifying assumption shared by the proposed robust graph inference algorithms is that the measurement noise model is known a-priori and that the specified noise model does not vary with time. In the situation where the measurement model is not fully known, rejecting the outliers can become far more difficult. To overcome this issue, a novel method is proposed that utilizes a non-parametric soft clustering algorithm to iteratively estimate the covariance matrix corresponding to the uncorrupted measurements. The estimated covariance is then used within the max-mixtures framework to mitigate the effect of false constraints. The proposed methodology provides robust optimization in the face of faulty measurements where little or no information is provided about the measurement uncertainty.</blockquote>
+						<!-- <br><br>
+						<center> <a href="https://www.researchgate.net/publication/327345527_Design_of_an_Autonomous_Precision_Pollination_Robot" class="button special">Read Me</a> </center> -->
+					</li>
+					<br><hr><br>
+
+          <li> <h4> Design of an Autonomous Precision Pollination Robot </h4>
+						<h5> <b> Ohi, N., Lassak, K., </b> Watson, R., <b> Strader, J., Du, Y., Yang, C., Hedrick, G., Nguyen, J., Harper, S., Reynolds, D., Kilic, C., Hikes, J., Mills, S., Castle, C., Buzzo, B., Waterland, N., Gross, J., Yong-Lak, P., Li, X., Gu, Y. </b> </h5>
+						<p> IEEE/RSJ International Conference on Intelligent Robots and System (IROS 2018) </p>
+
+
+						<blockquote>Precision robotic pollination systems can not only fill the gap of declining natural pollinators, but can also surpass them in efficiency and uniformity, helping to feed the fast-growing human population on Earth. This paper presents the design and ongoing development of an autonomous robot named "BrambleBee", which aims at pollinating bramble plants in a greenhouse environment. Partially inspired by the ecology and behavior of bees, BrambleBee employs state-of-the-art localization and mapping, visual perception, path planning, motion control, and manipulation techniques to create an efficient and robust autonomous pollination system.</blockquote>
 
 						<br><br>
-						<center> <a href="https://www.researchgate.net/publication/324454778_Evaluation_of_Kinematic_Precise_Point_Positioning_Convergence_with_an_Incremental_Graph_Optimizer?_sg=vaT2--_OpPDwupMcRKP97aVIr4qGqDqou6AKnqfzydkzfQV9CTeZ4P4SvU2GdcOalAruOHeOy8lr_p3Z9ofcoiMzp7Lsfpuk8gIWpdaU.xpNkvnTP6Pk-uq1oqcbq8thl8-kgimNmEzlgb39khVXKnCHKRfGo00zPzsl9ZuVgLnSGexnVdtWk5aOQGXfC2g" class="button special">Read Me</a> </center>
+						<center> <a href="https://www.researchgate.net/publication/327345527_Design_of_an_Autonomous_Precision_Pollination_Robot" class="button special">Read Me</a> </center>
+					</li>
+					<br><hr><br>
+
+          <li> <h4> A Rover and Drone Team for Subterranean Environments: System Design Overview. </h4>
+						<h5> Watson, R.<b>, Ohi, N., Harper, S., Kilic, C., Yang, C., Hikes, J., De Petrillo, M., Strader, J., Hedrick, G., Nichols, H., Upton, E. , Kirk, C., Hendricks, K., Reynolds, D., Darr,, J., Bredu, J., Langnese, E. , Gu, Y., Gross, J. </b> </h5>
+						<p> Robotics Science & Systems (RSS 2018) Workshop on Challenges and Opportunities for Resilient Collective Intelligence in Subterranean Environment </p>
+
+
+						<blockquote>This abstract provides a concept overview of a rover and drone team for the exploration of subterranean environments that is currently under development. Recently, significant advances have been made in the field of autonomous robotics. These advances span from high-level semantic scene understanding to low-level efficient optimization. Through the utilization of these advances, autonomous robotic platforms are starting to leave the research laboratories and beginning to permeate novel environments. One such example of a novel environment is a subterranean tunnel, which presents not only commercial applications (e.g., the utilization in tunnel infrastructure monitoring) but also safety critical applications (e.g., the fast and efficient response to a tunnel collapse). The safety critical applications in subterranean environments provide many novel challenges for the robotics community (e.g., robust navigation in highly dynamic environments in the case of a robotic first response to a cave collapse)..</blockquote>
+
+						<br><br>
+						<center> <a href="https://www.researchgate.net/publication/327345527_Design_of_an_Autonomous_Precision_Pollination_Robot" class="button special">Read Me</a> </center>
 					</li>
 					<br><hr><br>
 
